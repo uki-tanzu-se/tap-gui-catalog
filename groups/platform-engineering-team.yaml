@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-envineering-team
+  description: Platform Engineering Team
+spec:
+  type: team
+  profile:
+    displayName: Platform Engineering
+    email: platform-eng@tap.tanzu.xyz
+    picture: https://raw.githubusercontent.com/uki-tanzu-se/tap-gui-catalog/main/img/org-logo%400.5x.png
+  parent: uki-tanzu-se-org
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bglover
+spec:
+  profile:
+    displayName: Bill Glover
+    email: bglover@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [platform-envineering-team]

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tap-gui-catalog-info
+  description: 'uki-tanzu-se TAP catalog'
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./components/tap-gui.yaml
+    - ./groups/uki-tanzu-se-org.yaml
+    - ./systems/tap-gui-system.yaml
+    - ./domains/tap-gui-domain.yaml

@@ -1,0 +1,8 @@
+site_name: 'uki-tanzu-se TAP GUI catalog'
+
+nav:
+  - The Catalog: index.md
+  - Adding Documentation: add-docs.md
+
+plugins:
+  - techdocs-core

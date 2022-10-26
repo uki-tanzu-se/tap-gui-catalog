@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: uki-tanzu-se
+  description: The UKI Tanzu SEs
+  links:
+    - url: https://github.com/uki-tanzu-se
+      title: UKI Tanzu SE GitHub
+    - url: https://tanzu.vmware.com/support
+      title: Tanzu Support Website
+spec:
+  type: organization
+  profile:
+    displayName: UKI Tanzu SEs
+    email: demo@tap.tanzu.xyz
+    picture: https://raw.githubusercontent.com/uki-tanzu-se/tap-gui-catalog/main/img/org-logo%400.5x.png
+  children: [platform-engineering, application-development, infrastructure-operations]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: UKI
+  description: UKI Group Location
+spec:
+  targets:
+    - ./platform-engineering-team.yaml
+    - ./application-development-team.yaml
+    - ./infrastructure-operations-team.yaml
+    - ./guest-user.yaml
