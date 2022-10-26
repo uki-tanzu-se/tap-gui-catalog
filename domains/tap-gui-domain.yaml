@@ -12,4 +12,4 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  owner: default-team
+  owner: platform-engineering-team

@@ -22,7 +22,7 @@ spec:
     displayName: Bill Glover
     email: bglover@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/bill@tap.tanzu.xyz.svg?background=%23fff
-  memberOf: [platform-engineering-team]
+  memberOf: [uki-tanzu-se-org, platform-engineering-team]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -34,4 +34,4 @@ spec:
     displayName: Chris Burgess
     email: chburgess@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@tap.tanzu.xyz.svg?background=%23fff
-  memberOf: [platform-engineering-team]
+  memberOf: [uki-tanzu-se-org, platform-engineering-team]
