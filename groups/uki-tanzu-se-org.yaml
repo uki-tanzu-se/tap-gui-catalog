@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: uki-tanzu-se
+  name: uki-tanzu-se-org
   description: The UKI Tanzu SEs
   links:
     - url: https://github.com/uki-tanzu-se
