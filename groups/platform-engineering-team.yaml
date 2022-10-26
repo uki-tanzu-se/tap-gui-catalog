@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: platform-envineering-team
+  name: platform-engineering-team
   description: Platform Engineering Team
 spec:
   type: team
@@ -22,4 +22,4 @@ spec:
     displayName: Bill Glover
     email: bglover@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [platform-envineering-team]
+  memberOf: [platform-engineering-team]

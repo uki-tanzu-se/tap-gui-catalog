@@ -26,4 +26,3 @@ spec:
     - ./platform-engineering-team.yaml
     - ./application-development-team.yaml
     - ./infrastructure-operations-team.yaml
-    - ./guest-user.yaml

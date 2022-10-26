@@ -11,5 +11,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: default-team
+  owner: platform-engineering-team
   system: tap-gui
