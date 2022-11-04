@@ -87,3 +87,15 @@ spec:
     email: jkwong@vmware.com
     picture: https://ca.slack-edge.com/E8YCM8N9L-U03LYFKK80Y-bd2923a6d563-512
   memberOf: [uki-tanzu-se-org]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: mshahat
+spec:
+  profile:
+    displayName: Mohamed Shahat
+    email: mshahat@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-W013Y7SH1GC-c420e86c0333-512
+  memberOf: [uki-tanzu-se-org]
