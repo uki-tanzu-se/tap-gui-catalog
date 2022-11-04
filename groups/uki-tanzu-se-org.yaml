@@ -37,7 +37,7 @@ spec:
   profile:
     displayName: Bill Glover
     email: bglover@vmware.com
-    picture: https://avatars.dicebear.com/api/avataaars/bill@tap.tanzu.xyz.svg?background=%23fff
+    picture: https://ca.slack-edge.com/E8YCM8N9L-W014FT4AQ3S-7b2a75fc74b4-512
   memberOf: [uki-tanzu-se-org]
 
 ---
@@ -49,7 +49,7 @@ spec:
   profile:
     displayName: Chris Burgess
     email: chburgess@vmware.com
-    picture: https://avatars.dicebear.com/api/avataaars/guest@tap.tanzu.xyz.svg?background=%23fff
+    picture: https://ca.slack-edge.com/E8YCM8N9L-W011BREHK7T-0cbf2433b3ea-512
   memberOf: [uki-tanzu-se-org]
 
 ---
