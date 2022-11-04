@@ -15,6 +15,7 @@ spec:
     email: demo@tap.tanzu.xyz
     picture: https://raw.githubusercontent.com/uki-tanzu-se/tap-gui-catalog/main/img/org-logo%400.5x.png
   children: [platform-engineering-team, application-development-team, infrastructure-operations-team]
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -26,3 +27,63 @@ spec:
     - ./platform-engineering-team.yaml
     - ./application-development-team.yaml
     - ./infrastructure-operations-team.yaml
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bglover
+spec:
+  profile:
+    displayName: Bill Glover
+    email: bglover@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/bill@tap.tanzu.xyz.svg?background=%23fff
+  memberOf: [uki-tanzu-se-org]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: chburgess
+spec:
+  profile:
+    displayName: Chris Burgess
+    email: chburgess@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@tap.tanzu.xyz.svg?background=%23fff
+  memberOf: [uki-tanzu-se-org]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: vparmar
+spec:
+  profile:
+    displayName: Vikesh Parmer
+    email: vparmar@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-U02TAK467B4-d6425fb674f4-512
+  memberOf: [uki-tanzu-se-org]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: natarajmb
+spec:
+  profile:
+    displayName: Nataraj Basappa
+    email: natarajmb@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-U03EC37MP99-fbc4d1fa1288-512
+  memberOf: [uki-tanzu-se-org]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jkwong
+spec:
+  profile:
+    displayName: Joe Kwong
+    email: jkwong@vmware.com
+    picture: https://ca.slack-edge.com/E8YCM8N9L-U03LYFKK80Y-bd2923a6d563-512
+  memberOf: [uki-tanzu-se-org]
