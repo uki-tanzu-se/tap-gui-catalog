@@ -18,18 +18,6 @@ spec:
 
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: UKI
-  description: UKI Group Location
-spec:
-  targets:
-    - ./platform-engineering-team.yaml
-    - ./application-development-team.yaml
-    - ./infrastructure-operations-team.yaml
-
----
-apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: bglover
