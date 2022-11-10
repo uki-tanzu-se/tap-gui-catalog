@@ -12,4 +12,32 @@ spec:
   parent: default-org
   children: []
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team1
+  description: We develop systems with an odd number of microservices.
+spec:
+  type: team
+  profile:
+    displayName: Team One
+    email: team1@tanzu.xyz
+    picture: https://avatars.dicebear.com/api/identicon/team1@tanzu.xyz.svg?background=%23fff&margin=25
+  parent: uki-tanzu-se-org
+  children: []
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team2
+  description: We develop systems with an even number of microservices.
+spec:
+  type: team
+  profile:
+    displayName: Team Two
+    email: team2@tanzu.xyz
+    picture: https://avatars.dicebear.com/api/identicon/team2@tanzu.xyz.svg?background=%23fff&margin=25
+  parent: uki-tanzu-se-org
+  children: []
