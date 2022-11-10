@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: hello-system
+  description: All the services you need to say, "Hello".
+spec:
+  owner: team2
+  domain: hello-domain

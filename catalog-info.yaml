@@ -12,3 +12,5 @@ spec:
     - ./groups/default-team.yaml
     - ./systems/tap-gui-system.yaml
     - ./domains/tap-gui-domain.yaml
+    - ./domains/hello-domain.yaml
+    - ./systems/hello-system.yaml

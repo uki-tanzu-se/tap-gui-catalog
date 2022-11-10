@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: hello-domain
+  description: All things hello
+  links:
+    - url: https://translate.google.com/
+      title: Translation Provider
+    - url: http://tap-gui.tap.tanzu.xyz/
+      title: Cloud Apps Dashboard
+      icon: dashboard
+spec:
+  owner: team2
