@@ -26,7 +26,7 @@ spec:
     displayName: Bill Glover
     email: bglover@tanzu.xyz
     picture: https://ca.slack-edge.com/E8YCM8N9L-W014FT4AQ3S-7b2a75fc74b4-512
-  memberOf: [uki-tanzu-se-org]
+  memberOf: [uki-tanzu-se-org, team1, team2]
 
 ---
 apiVersion: backstage.io/v1alpha1
