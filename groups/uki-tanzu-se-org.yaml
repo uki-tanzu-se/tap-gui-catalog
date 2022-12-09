@@ -84,6 +84,6 @@ metadata:
 spec:
   profile:
     displayName: Mohamed Shahat
-    email: mshahat@tanzu.xyz
+    email: mshahat@vmware.com
     picture: https://ca.slack-edge.com/E8YCM8N9L-W013Y7SH1GC-c420e86c0333-512
-  memberOf: [uki-tanzu-se-org]
+  memberOf: [uki-tanzu-se-org, team1, team2]
